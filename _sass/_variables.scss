@@ -5,6 +5,7 @@
 
 // Colors
 $blue: #4183C4;
+$purple: #2A2D55;
 
 // Grays
 $black: #000;
@@ -24,4 +25,8 @@ $georgia: Georgia, serif;
   @media screen and (max-width: 640px) {
     @content;
   }
+}
+
+a {
+  color: $purple !important;
 }
