@@ -76,10 +76,13 @@ providers: [
 ```
 If you don't have the class, you can use InjectionTokens, that in the latest versions even allows you to provide them in root omitting the "adding to providers" step.
 ```ts
-const MY_SERVICE_TOKEN = new InjectionToken<MyService>('Manually constructed MyService', {
-  providedIn: 'root',
-  factory: () => new MyService()
-});
+const MY_SERVICE_TOKEN = new InjectionToken<MyService>(
+  'Manually constructed MyService', 
+  {
+  	providedIn: 'root',
+  	factory: () => new MyService()
+  }
+);
 ```
 ### State Management
 The Angular library I prefer for state management it's called [ngxs](https://www.ngxs.io/). It's not the typical Redux implementation, but an easier one that I think it fits better in the Angular way to do the things.
@@ -139,9 +142,11 @@ export class AddressesState {
     { getState, setState }: StateContext<AddressesStateModel>,
     { payload }: AddressesActions.SelectAddress
   ) {
+    const addresses = getState().addresses;
+    const selectedAddress = addresses.find(address => address.id === payload)
     setState(
       patch({
-        selectedAddress: getState().addresses.find(address => address.id === payload)
+        selectedAddress
       })
     );
   }
@@ -153,7 +158,8 @@ Now that we have configured our state we can use like this inside the components
 ```ts
 @Component({
   selector: 'app-addresses-list,
-  ...
+  templateUrl: 'addresses-list.component.html',
+  styleUrls: ['addresses-list.component.scss']
 })
 export class AddressesListPage {
   @Select(AddressesState.addresses) addresses$: Observable<Address[]>;
