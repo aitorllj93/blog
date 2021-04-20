@@ -143,7 +143,7 @@ export class AddressesState {
     { payload }: AddressesActions.SelectAddress
   ) {
     const addresses = getState().addresses;
-    const selectedAddress = addresses.find(address => address.id === payload)
+    const selectedAddress = addresses.find(address => address.id === payload);
     setState(
       patch({
         selectedAddress
@@ -157,7 +157,7 @@ export class AddressesState {
 Now that we have configured our state we can use like this inside the components:
 ```ts
 @Component({
-  selector: 'app-addresses-list,
+  selector: 'app-addresses-list',
   templateUrl: 'addresses-list.component.html',
   styleUrls: ['addresses-list.component.scss']
 })
