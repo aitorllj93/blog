@@ -5,8 +5,7 @@ tags:
   - jest
   - ngxs
 ---
-## How I structure large Angular applications
-
+![How I structure large Angular applications]({{site.baseurl}}/images/how-i-structure-large-angular-applications.png)
 In this post I will cover the way I like to structure large Angular applications in order to make them scalable and easy to test.
 
 * TOC
@@ -169,4 +168,3 @@ export class AddressesListPage {
 
 ### Testing
 When setting up the testing environment/tools I usually remove Jasmine, Karma and Protractor because I feel more comfortable with Jest. For the e2e part, depending on the project I use Cypress or Puppeteer.
-
