@@ -10,6 +10,14 @@
   overflow: scroll;
 }
 
+.highlight > .highlight {
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+  overflow: auto;
+}
+
 code {
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
 }
