@@ -12,6 +12,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Create required folders
+        run: |
+          mkdir _archives/categories
+          mkdir _archives/tags
+          mkdir _archives/years
+
       - name: Generate Jekyll Archives
         uses: kannansuresh/jekyll-blog-archive-workflow@master
         with:
