@@ -2,7 +2,6 @@
 published: true
 ---
 ![Visual Studio Code extensions I use on my daily work]({{site.baseurl}}/images/visual-studio-code-extensions-i-use-on-my-daily-work.png)
-
 In this post I will show you some of the extensions I like to use to improve my productivity.
 
 ## General
