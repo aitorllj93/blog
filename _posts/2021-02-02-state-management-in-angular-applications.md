@@ -9,7 +9,7 @@ tags:
   - akita
 ---
 ![State Management in Angular Applications]({{site.baseurl}}/images/state-management-in-angular-applications.png)
-In these days, when people speak about state management in Front-End applications most of the time they are talking about Redux, but there are some interesting alternatives that should be taken into account. For this post, I will talk about some of those alternatives, focusing Angular-ready implementations.
+In these days, when people speak about state management in Front-End applications most of the time they are talking about Redux, but there are some interesting alternatives that should be taken into account. For this post, I will talk about some of those alternatives, focusing on Angular-ready implementations.
 
 ### NgRx
 [NgRx](https://ngrx.io/) is a Redux implementation made with RxJS, so, if you know Redux, and you know RxJS, you won't have any problem working with it. It's the most popular State Management library for Angular, but also comes with all the Redux trade-offs such as the amount boilerplate code needed to setup your project. Some of the features it offers as seen in it's official website are:
