@@ -9,7 +9,6 @@ tags:
   - akita
 ---
 ![State Management in Angular Applications]({{site.baseurl}}/images/state-management-in-angular-applications.png)
-
 In these days, when people speak about state management in Front-End applications most of the time they are talking about Redux, but there are some interesting alternatives that should be taken into account. For this post, I will talk about some of those alternatives, focusing Angular-ready implementations.
 
 ### NgRx
