@@ -6,7 +6,7 @@ tags:
   - behavior-tree
   - goap
 ---
-![Artificial Intelligence patterns in videogames]({{site.baseurl}}/images/artificial-intelligence-patterns-in-videogames.png)
+![Patterns in Videogames II: Artificial Intelligence]({{site.baseurl}}/images/patterns-in-videogames-ii-artificial-intelligence.png)
 
 ### State Machine
 
