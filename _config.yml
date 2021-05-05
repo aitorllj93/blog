@@ -76,6 +76,7 @@ collections:
   archives:
     output: true
     permalink: /archives/:path/
+  authors:
 
 # Use the following plug-ins
 gems:

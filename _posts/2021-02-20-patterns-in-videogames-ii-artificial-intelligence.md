@@ -1,5 +1,6 @@
 ---
 published: false
+author: aitor
 tags:
   - artificial-intelligence
   - state-machine

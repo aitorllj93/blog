@@ -1,5 +1,6 @@
 ---
 published: true
+author: aitor
 tags:
   - angular
   - jest
