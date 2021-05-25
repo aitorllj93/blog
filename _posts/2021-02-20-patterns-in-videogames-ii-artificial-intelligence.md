@@ -1,6 +1,7 @@
 ---
 published: true
 author: aitor
+title: Patterns in Videogames II: Artificial Intelligence
 tags:
   - artificial-intelligence
   - state-machine
