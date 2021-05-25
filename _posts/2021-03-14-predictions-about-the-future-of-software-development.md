@@ -8,6 +8,4 @@ tags:
   - no-code
   - low-code
 ---
-## Predictions about the future of Software Development
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+![Predictions about the future of Software Development]({{site.baseurl}}/images/predictions-about-the-future-of-software-development.png)
