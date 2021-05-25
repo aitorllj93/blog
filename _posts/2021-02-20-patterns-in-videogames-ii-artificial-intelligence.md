@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 author: aitor
 tags:
   - artificial-intelligence
@@ -51,10 +51,23 @@ by Combining Behavior
 Trees and State Machines](http://www.gameaipro.com/GameAIPro3/GameAIPro3_Chapter11_A_Character_Decision-Making_System_for_FINAL_FANTASY_XV_by_Combining_Behavior_Trees_and_State_Machines.pdf)
 
 Some JavaScript/TypeScript implementations:
-- [BehaviorTree.js](https://github.com/Calamari/BehaviorTree.js)
-- [Modular Behavior Tree](https://github.com/telcy/modular-behavior-tree)
-- [Fluent Behavior Tree](https://github.com/aequasi/fluent-behavior-tree)
+- [Calamari/BehaviorTree.js](https://github.com/Calamari/BehaviorTree.js)
+- [telcy/modular-behavior-tree](https://github.com/telcy/modular-behavior-tree)
+- [aequasi/fluent-behavior-tree](https://github.com/aequasi/fluent-behavior-tree)
 
 ### GOAP (Goal-Oriented Action Planning)
 
+![GOAP Diagram](http://www.plantuml.com/plantuml/png/SoWkIImgAStDuOhMYbNGrRLJ20O9S761AGNTbFpoFA2WHs9HMMfnINX6Qc99V1cQf5jcNaf8VduE5um1bmajJWNnuxbW3Em6map4q5V1vP2Qbm9q7G00)
 
+Goal Oriented Action Planning (GOAP) is an AI system that will easily give your agents choices and the tools to make smart decisions without having to maintain a large and complex finite state machine.
+
+GOAP is an artificial intelligence system for autonomous agents that allows them to dynamically plan a sequence of actions to satisfy a set goal. The sequence of actions selected by the agent is contingent on both the current state of the agent and the current state of the world, hence despite two agents being assigned the same goal; both agents could select a completely different sequence of actions.
+
+If you want to learn more about GOAP here are a few links:
+- [Jeff Orkin - Goal-Oriented Action Planning (GOAP)](http://alumni.media.mit.edu/~jorkin/goap.html)
+- [Envato Tuts+ - Goal Oriented Action Planning for a Smarter AI](https://gamedevelopment.tutsplus.com/tutorials/goal-oriented-action-planning-for-a-smarter-ai--cms-20793)
+
+Some JavaScript/TypeScript implementations:
+- [wmdmark/goap-js](https://github.com/wmdmark/goap-js)
+- [wvffle/goap](https://github.com/wvffle/goap)
+- [rwilliaise/goap](https://github.com/rwilliaise/goap)
