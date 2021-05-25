@@ -9,7 +9,6 @@ tags:
   - goap
 ---
 ![Patterns in Videogames II: Artificial Intelligence]({{site.baseurl}}/images/patterns-in-videogames-ii-artificial-intelligence.png)
-
 One of the most interesting and important thing in the videogame development ecosystem is the Artificial Intelligence development. With AI you can for example develop behaviours for your game's NPCs, and Enemies. When talking about AI in videogames, we need to keep in mind that most of the times it's not the same kind of software we refer when talking about AI in software development. These times AI in software development it's more focused on Machine Learning, Neural Networks and things like that, while game development is more focused on providing realistic behaviours for NPCs, but things are starting to change because Machine Learning is being used on game development fields like procedural generation.
 And now, here are the 3 patterns in videogames AI development I like the most:
 
