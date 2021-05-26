@@ -9,7 +9,6 @@ tags:
   - low-code
 ---
 ![Predictions about the future of Software Development]({{site.baseurl}}/images/predictions-about-the-future-of-software-development.png)
-
 Today, I want to talk about the changes the software development industry is undergoing right now, and how I think it will evolve for the next years. 
 
 ## UI Components
