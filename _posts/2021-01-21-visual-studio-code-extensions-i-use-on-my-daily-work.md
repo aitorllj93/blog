@@ -22,6 +22,8 @@ The other theme I use. Specifically the Noctis Uva one. Did I say I love purple?
 
 ### Editor Features
 
+#### [Test Explorer UI](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer)
+Extensible user interface for running your tests in VS Code.
 #### [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 AI-assisted autocomplete. You need to give it a try.
 #### [Inline Parameters for VSCode](https://marketplace.visualstudio.com/items?itemName=liamhammett.inline-parameters)
@@ -71,9 +73,7 @@ Latest JavaScript and TypeScript features.
 #### [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 Linter for JavaScript and TypeScript projects.
 #### [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
-Old linter for TypeScript projects. Now it's being deprecated from Angular.
-#### [Jest Runner](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner)
-Adds buttons on your spec files so you can run tests right there.
+Old linter for TypeScript projects. Now it's being deprecated in Angular projects.
 
 ## Angular
 ### [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
