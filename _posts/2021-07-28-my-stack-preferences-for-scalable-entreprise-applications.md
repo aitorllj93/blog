@@ -11,7 +11,6 @@ In this article I will summarize the stack of the technologies I like to use and
 I like to use [GIT](https://git-scm.com/). For my personal projects I like to use [GitHub](https://github.com/), but I also work with [Azure DevOps](https://dev.azure.com/) and [GitLab](gitlab.com)
 
 #### Repository Structure
-
 I use [Nx](https://nx.dev/) to manage my repository structure as a monorepo splitting the code into different applications and libraries.
 
 #### Dependency Management
@@ -21,16 +20,57 @@ I prefer to keep the dependencies centralized in a single package.json so I try 
 I like to have a single programming language across the entire repository if possible, so I use [TypeScript](https://www.typescriptlang.org/), [SASS (SCSS)](https://sass-lang.com/) and [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML). Sometimes [GraphQL](https://graphql.org/) too for the communication layer
 
 ### Front-End
+
+#### Design Patterns
+
+#### Configuration
+
 #### Framework
-I like to use Angular as a FrontEnd Framework as it provides a really helpful set of tools for working in entreprise projects, such as [Dependency Injection based on Modules](https://martinfowler.com/articles/injection.html), Lazy Loading, Class-style code (it's easier to tie to class interfaces while replacing dependencies or testing), Observables Composition ([RxJS](https://rxjs.dev/)) and a powerful CLI with code generation and library updates management features.
+I like to use [Angular](https://angular.io/9 as a FrontEnd Framework as it provides a really helpful set of tools for working in entreprise projects, such as [Dependency Injection based on Modules](https://martinfowler.com/articles/injection.html), Lazy Loading, Class-style code (it's easier to tie to class interfaces while replacing dependencies or testing), Observables Composition ([RxJS](https://rxjs.dev/)) and a powerful CLI with code generation and library updates management features.
+
 #### User Interface
 Most of the projects I develop are based on [Bootstrap](https://getbootstrap.com/), but I also work with [Angular Material](https://material.angular.io/) in some of them. I would like to try [Tailwind CSS](https://tailwindcss.com/). For mobile apps I use [Ionic Framework](https://ionicframework.com/)
+
+##### Components
+Datatable
+Forms
+Charts
+Maps
+
+#### Data Mapping
+
 #### State Management
 My personal preference and the one I use the most is [NGXS](https://www.ngxs.io/) but the most popular solution is [NgRx](https://ngrx.io/). Special mention to [xstate](https://xstate.js.org/docs/) for state machines.
-#### Server Communication
+
+#### Communication
 Depending on the server APIs, I use [OpenAPI](https://swagger.io/specification/) generator ([ng-openapi-gen](https://www.npmjs.com/package/ng-openapi-gen)), [Apollo](https://apollo-angular.com/docs/) for [GraphQL](https://graphql.org/) and [Socket.IO](https://socket.io/) for WebSockets
 
+#### Storage
+Web: [NGXS Storage Plugin](https://www.ngxs.io/plugins/storage)
+Mobile: https://github.com/ngxs-labs/async-storage-plugin + https://capacitorjs.com/docs/apis/storage
+
+#### I18n
+Transloco, Angular Localize
+
+#### Logging
+
+
 ## Back-End
+
+#### Design Patterns
+
+#### Configuration
+
+#### Communication
+REST -> OpenAPI, GraphQL, Socket.IO
+
+#### Validation
+
+#### Data Mapping
+
+#### ORM
+
+#### Logging
 
 ## Testing
 
